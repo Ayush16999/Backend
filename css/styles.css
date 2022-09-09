@@ -1,0 +1,205 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #2B2B2B;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #F47C7C;
+  overflow: hidden;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: right;
+  color: #0f0d0d;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #f9f9f9;
+  color: #0b022d;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: black;
+}
+
+a {
+  font-size: x-large;
+  margin-left: 1800px;
+}
+
+.hide{
+    color: #F47C7C;
+}
+img.logo {
+  width: 350px;
+  height: 80px;
+  margin-top: 25px;
+  
+}
+
+p{
+  color: #F8F0DF;
+  font-size: 30px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.intro{
+  color: #F8F0DF;
+  font-size: 25px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3f4e4f;
+  border-width: 15px;
+  width: 5%;
+}
+
+h1 {
+  color: #F47C7C;
+  font-size: 60px;
+  margin-left: 830px;
+}
+
+h2{
+    color: #F8F0DF;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.dropbtn {
+  background-color: #F47C7C;
+  color: #0f0d0d;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 20px;
+  border: none;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #f9f9f9;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.slider .imgBx {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  transition-delay: 0s;
+  z-index: 1;
+  clip-path: circle(50px at 0 100px);
+}
+
+.slider input[type="radio"]:checked + .imgBx {
+  z-index: 20;
+  clip-path: circle(1000px at center);
+  transition-delay: 0.75s;
+  accent-color: black;
+}
+
+.slider .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+  margin-left: 370px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.slider input[type="radio"] {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  z-index: 1500px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  outline: none;
+  cursor: pointer;
+  accent-color: black;
+}
+
+.bride {
+  margin-left: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+img.dp {
+  width: 300px;
+  height: 300px;
+  margin-left: 800px;
+  
+}
+
+h1.services{
+    font-size: 60px;
+    margin-left: 750px;
+}
+
+img.beauty{
+    margin-left: 700px;
+}
+
+.box1 {
+    background-color: #000000;
+    color: #fff;
+    opacity: .5;
+    width: 1900px;
+    height: 250px;
+    margin: 0px 0px;
+
+}
+
+p.follow{
+    margin-left: 1500px;
+    margin-top: 300px;
+}
